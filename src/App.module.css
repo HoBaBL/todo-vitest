@@ -1,0 +1,137 @@
+.home {
+  margin-top: 60px;
+  max-width: 824px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 10px;
+  font-size: 20px;
+  outline:none;
+  border-radius: 10px;
+  border:none;
+  -webkit-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.5);
+}
+
+.headerText {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.main {
+  width: 100%;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.headerFlex{
+  display: flex;
+  gap: 10px;
+  
+}
+
+.btnHeader {
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  padding: 10px 30px;
+  -webkit-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.5);
+}
+
+.btnHeader:hover {
+  background-color: #9E82F7;
+  transition: 0.3s;
+}
+
+.boxTodo {
+  border-bottom: solid 1px gray;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.boxTodoflex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btnDelete {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: gray;
+}
+
+.main {
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.5);
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border:solid 1px gray ;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.textMain {
+  font-size: 20px;
+  margin: 0;
+}
+
+.textMainCopleted {
+  font-size: 20px;
+  color: gray;
+  margin: 0;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.footerFlex {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footerText {
+  color: gray;
+}
+
+.footerBtn {
+  color: gray;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.footerBtnActive {
+  color: #3A7CFD;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
