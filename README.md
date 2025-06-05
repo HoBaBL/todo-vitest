@@ -1,4 +1,4 @@
-# Тестовое задание Mindbox
+# Todo Vitest
 
 Технологии: ReactTS, CSS module, Vite, Vitest, React Icons
 
